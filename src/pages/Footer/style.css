@@ -1,0 +1,15 @@
+.footer-covid {
+  background-color: #02C26A;
+  color: #FFFFFF;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-covid .redes span {
+  padding: 20px;
+}
+
+.footer-covid p {
+  font-size: 1em;
+  font-weight: 500;
+}
