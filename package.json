@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://huriellopes.github.io/info-covid"
+  "homepage": "https://huriellopes.github.io/info-covid",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }

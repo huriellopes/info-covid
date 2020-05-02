@@ -9,7 +9,7 @@ function Header() {
     <header className="container header-covid">
       <div className="logo-covid">
         <span>
-          Info Covid 19
+          Info Covid
         </span>
       </div>
     </header>
