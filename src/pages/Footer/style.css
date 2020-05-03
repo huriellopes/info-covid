@@ -1,14 +1,20 @@
 .footer-bg {
-  background-color: #02C26A;
-  color: #FFFFFF;
+  flex-shrink: 0;
+  margin-top: 3rem;
+  padding: 10px;
 }
 
 .container {
   justify-content: space-between;
 }
 
-.footer-bg .redes span {
-  padding: 20px;
+footer {
+  background-color: #02C26A;
+  color: #FFFFFF;
+}
+
+footer .redes span {
+  padding: 10px;
 }
 
 .footer-bg p {
