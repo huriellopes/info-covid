@@ -3,11 +3,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 .search form {
-  width: 50%;
+  margin-top: 1.5rem;
+  width: 80%;
 }
 
 .search form select {
@@ -28,14 +29,15 @@ option {
 
 .cards {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 40px;
 }
 
 .cards .card {
-  flex: 1 1 260px;
-  width: 260px;
+  flex: 1 1 360px;
+  width: 360px;
   height: 180px;
   margin: 10px;
   border-radius: 10px;

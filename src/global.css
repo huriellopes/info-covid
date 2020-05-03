@@ -62,9 +62,33 @@ footer {
   margin-top: auto;
 }
 
+@media (max-width: 2560px) {
+  .container {
+    max-width: 2560px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     max-width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 425px;
   }
 }
 
