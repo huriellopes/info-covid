@@ -33,47 +33,45 @@ export default function Conteudo() {
   }
 
   return (
-    <section className="container section-covid">
-      <div className="search">
-        <form>
-          <select name="uf" defaultValue="" id="ufCovid" onChange={(e) => search(e.target.value)}>
-            <option value="" disabled>Selecione o seu estado</option>
-            <option value="AC">AC</option>
-            <option value="AL">AL</option>
-            <option value="AM">AM</option>
-            <option value="AP">AP</option>
-            <option value="BA">BA</option>
-            <option value="CE">CE</option>
-            <option value="DF">DF</option>
-            <option value="ES">ES</option>
-            <option value="GO">GO</option>
-            <option value="MA">MA</option>
-            <option value="MG">MG</option>
-            <option value="MS">MS</option>
-            <option value="MT">MT</option>
-            <option value="PA">PA</option>
-            <option value="PB">PB</option>
-            <option value="PE">PE</option>
-            <option value="PI">PI</option>
-            <option value="PR">PR</option>
-            <option value="RJ">RJ</option>
-            <option value="RN">RN</option>
-            <option value="RS">RS</option>
-            <option value="RO">RO</option>
-            <option value="RR">RR</option>
-            <option value="SC">SC</option>
-            <option value="SE">SE</option>
-            <option value="SP">SP</option>
-            <option value="TO">TO</option>
-          </select>
-        </form>
-      </div>
-      {/* <div className="pesquisa-covid">
-        <form action="">
-          <input type="text" name="" placeholder="Pesquise aqui..." />
-        </form>
-      </div> */}
-      <div className="cards">
+    <section>
+      <div className="container">
+        
+        <div className="search">
+          <form>
+            <select name="uf" defaultValue="" id="ufCovid" onChange={(e) => search(e.target.value)}>
+              <option value="" disabled>Selecione o seu estado</option>
+              <option value="AC">AC</option>
+              <option value="AL">AL</option>
+              <option value="AM">AM</option>
+              <option value="AP">AP</option>
+              <option value="BA">BA</option>
+              <option value="CE">CE</option>
+              <option value="DF">DF</option>
+              <option value="ES">ES</option>
+              <option value="GO">GO</option>
+              <option value="MA">MA</option>
+              <option value="MG">MG</option>
+              <option value="MS">MS</option>
+              <option value="MT">MT</option>
+              <option value="PA">PA</option>
+              <option value="PB">PB</option>
+              <option value="PE">PE</option>
+              <option value="PI">PI</option>
+              <option value="PR">PR</option>
+              <option value="RJ">RJ</option>
+              <option value="RN">RN</option>
+              <option value="RS">RS</option>
+              <option value="RO">RO</option>
+              <option value="RR">RR</option>
+              <option value="SC">SC</option>
+              <option value="SE">SE</option>
+              <option value="SP">SP</option>
+              <option value="TO">TO</option>
+            </select>
+          </form>
+        </div>
+
+        <div className="cards">
           <div className="card">
             <div className="number-cases">
               <span className="card-text">{cases.cases}</span>
@@ -100,14 +98,15 @@ export default function Conteudo() {
               <h5 className="card-title">Mortes</h5>
             </div>
           </div>
-      </div>
-
-      <div className="info-locale-date">
-        <div className="info-locale">
-          <span>{'Estado: '+cases.state}</span>
         </div>
-        <div className="info-date">
-          <span>{'Atualização: '+Moment(cases.datetime).format('DD/MM/YYYY H:m')}</span>
+
+        <div className="info-locale-date">
+          <div className="info-locale">
+            <span>{'Estado: '+cases.state}</span>
+          </div>
+          <div className="info-date">
+            <span>{'Atualização: '+Moment(cases.datetime).format('DD/MM/YYYY H:m')}</span>
+          </div>
         </div>
       </div>
     </section>

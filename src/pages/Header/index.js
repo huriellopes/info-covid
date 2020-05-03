@@ -6,11 +6,11 @@ import './style.css'
 
 function Header() {
   return (
-    <header className="container header-covid">
-      <div className="logo-covid">
-        <span>
-          Info Covid
-        </span>
+    <header className="header-bg">
+      <div className="container">
+        <div className="logo-covid">
+          <span>Info Covid</span>
+        </div>
       </div>
     </header>
   )

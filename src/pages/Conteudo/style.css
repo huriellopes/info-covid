@@ -1,23 +1,16 @@
-.section-covid {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1140px;
-  margin: 60px auto;
-}
-
-.section-covid .search {
+.search {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin: 40px auto;
 }
 
-.section-covid .search form {
+.search form {
   width: 50%;
 }
 
-.section-covid .search form select {
+.search form select {
   border: 1px solid #000000;
   width: 100%;
   padding: 15px;
@@ -33,13 +26,14 @@ option {
   padding: 0px 2px 1px;
 }
 
-.section-covid .cards {
+.cards {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px auto;
+  margin: 0 auto;
+  padding: 40px;
 }
 
-.section-covid .card {
+.cards .card {
   flex: 1 1 260px;
   width: 260px;
   height: 180px;
@@ -50,69 +44,70 @@ option {
   transition: 400ms;
 }
 
-.section-covid .card:hover {
+.cards .card:hover {
   box-shadow: 4px 4px 4px -2px rgba(0,0,0,.3);
 }
 
-.section-covid .card:nth-child(1) {
+.cards .card:nth-child(1) {
   background: #09D914;
 }
 
-.section-covid .card:nth-child(2) {
+.cards .card:nth-child(2) {
   background: #e4c800;
 }
 
-.section-covid .card:nth-child(3) {
+.cards .card:nth-child(3) {
   background: #808080;
 }
 
-.section-covid .card .number-cases {
+.cards .card .number-cases {
   width: 100%;
   padding: 24px;
   margin: 24px auto;
   text-align: center;
 }
 
-.section-covid .card .cases-content {
+.cards .card .cases-content {
   width: 100%;
   text-align: center;
   border-top: 1px solid #FFFFFF;
   padding: 18px;
 }
 
-.section-covid .card .cases-content .card-title {
+.cards .card .cases-content .card-title {
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-.section-covid .card .number-cases .card-text {
+.cards .card .number-cases .card-text {
   font-size: 1.6em;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.section-covid .info-locale-date {
+.info-locale-date {
   display: flex;
   width: 100%;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 40px;
 }
 
-.section-covid .info-locale {
+.info-locale {
   margin-bottom: .5rem;
   font-size: 1rem;
   font-weight: 500;
 }
 
-.section-covid .info-date {
+.info-date {
   font-weight: 500;
   font-size: 1rem;
 }
 
 @media (max-width: 680px) {
-  .section-covid .search form {
+  .cards .search form {
     width: 90%;
   }
 }

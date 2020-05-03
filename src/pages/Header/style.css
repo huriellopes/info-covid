@@ -1,22 +1,10 @@
-.header-covid {
+.header-bg {
   background-color: #02c26a;
-  width: 100%;
   color: #FFFFFF;
-  align-items: center;
-  margin: 0 auto;
-  justify-content: space-between;
 }
 
-.header-covid .logo-covid {
+.header-bg .logo-covid {
   font-size: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-.header-covid .info span {
-  padding: 12px;
-}
-
-.header-covid .info a:hover {
-  color: #c0c0;
 }

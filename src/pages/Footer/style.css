@@ -1,15 +1,17 @@
-.footer-covid {
+.footer-bg {
   background-color: #02C26A;
   color: #FFFFFF;
-  width: 100%;
+}
+
+.container {
   justify-content: space-between;
 }
 
-.footer-covid .redes span {
+.footer-bg .redes span {
   padding: 20px;
 }
 
-.footer-covid p {
+.footer-bg p {
   font-size: 1em;
   font-weight: 500;
 }
